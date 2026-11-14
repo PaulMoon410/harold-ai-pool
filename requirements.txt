@@ -1,2 +1,2 @@
-# Harold AI Pool uses only the Python standard library.
-# This file exists so hosted builds running pip install -r requirements.txt succeed.
+# The app uses only the Python standard library; gunicorn serves it on Render.
+gunicorn>=23
